@@ -4,7 +4,7 @@ import Avatar from './Avatar.jsx';
 const userInfo = (props) => {
   return (
     <div className="user-info">
-      <Avatar avatarUrl={props.avatarUrl} name={props.name} />
+      <Avatar avatarUrl={props.user.avatarUrl} name={props.user.name} />
       <div className="user-info__name">{props.user.name}</div>
     </div>
   );

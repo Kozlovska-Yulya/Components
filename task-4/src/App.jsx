@@ -5,7 +5,7 @@ const App = () => {
   const user = {
     firstName: 'John',
     lastName: 'Doe',
-    birthDate: 30,
+    birthDate: 17,
   };
 
   return (

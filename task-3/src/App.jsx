@@ -3,17 +3,11 @@ import Comment from './Comment';
 
 const userInfo = {
   name: 'Tom',
-  avatarUrl: 'http://avatars1.githubusercontent.com',
+  avatarUrl: 'https://github.com/github.png',
 };
 
 const App = () => {
-  return (
-    <Comment
-      author={userInfo}
-      text="Good job!"
-      date={new Date('2019-01-01T11:32:19.566Z')}
-    />
-  );
+  return <Comment author={userInfo} text="Good job" date={new Date()} />;
 };
 
 export default App;

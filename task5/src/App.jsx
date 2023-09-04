@@ -10,14 +10,13 @@ const userData = {
 
 function App() {
   return (
-    <div>
-      <Profile
-        firstName={userData.firstName}
-        lastName={userData.lastName}
-        birthDate={userData.birthDate}
-        birthPlace={userData.birthPlace}
-      />
-    </div>
+    <Profile
+      userData={userData}
+      firstName={userData.firstName}
+      lastName={userData.lastName}
+      birthDate={userData.birthDate}
+      birthPlace={userData.birthPlace}
+    />
   );
 }
 

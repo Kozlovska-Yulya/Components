@@ -17,7 +17,6 @@ function App() {
         birthDate={userData.birthDate}
         birthPlace={userData.birthPlace}
       />
-      {/* <div><Profile birthDate={userData.birthDate} /></div> */}
     </div>
   );
 }

@@ -9,14 +9,7 @@ const App = () => {
     birthPlace: 'London',
   };
 
-  return (
-    <Profile
-      firstName={userData.firstName}
-      lastName={userData.lastName}
-      birthDate={userData.birthDate}
-      birthPlace={userData.birthPlace}
-    />
-  );
+  return <Profile userData={userData} />;
 };
 
 export default App;

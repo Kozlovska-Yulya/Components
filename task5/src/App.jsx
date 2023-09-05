@@ -11,7 +11,6 @@ const App = () => {
 
   return (
     <Profile
-      userData={userData}
       firstName={userData.firstName}
       lastName={userData.lastName}
       birthDate={userData.birthDate}

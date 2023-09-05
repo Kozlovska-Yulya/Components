@@ -8,16 +8,17 @@ const userData = {
   birthPlace: 'London',
 };
 
-function App() {
+const App = () => {
   return (
-    <Profile
-      userData={userData}
-      firstName={userData.firstName}
-      lastName={userData.lastName}
-      birthDate={userData.birthDate}
-      birthPlace={userData.birthPlace}
-    />
+    <div>
+      <Profile
+        firstName={userData.firstName}
+        lastName={userData.lastName}
+        birthDate={userData.birthDate}
+        birthPlace={userData.birthPlace}
+      />
+    </div>
   );
-}
+};
 
 export default App;
